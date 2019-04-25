@@ -1,5 +1,5 @@
 view: arch_services {
-  sql_table_name: arch_services.arch_services_live ;;
+  sql_table_name: arch_services.arch_services ;;
 
 
   ########## METADATA { ##########
