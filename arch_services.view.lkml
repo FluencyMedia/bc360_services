@@ -1,4 +1,6 @@
 view: arch_services {
+  label: "Service Architecture"
+
   sql_table_name: arch_services.arch_services ;;
 
 
