@@ -40,28 +40,10 @@ view: arch_services {
     label: "Service Line Code"
     description: "Service Line Code"
 
+    primary_key: yes
+
     type: string
     sql: ${TABLE}.service_line_code ;;
-  }
-
-  dimension: service_offering {
-    view_label: "2. Services"
-    group_label: "Service Architecture"
-    label: "Service Offering"
-    description: "Service Line Offering"
-
-    type: string
-    sql: ${TABLE}.service_offering ;;
-  }
-
-  dimension: service_detail {
-    view_label: "2. Services"
-    group_label: "Service Architecture"
-    label: "Service Detail"
-    description: "Service Detail"
-
-    type: string
-    sql: ${TABLE}.service_detail ;;
   }
 
   ########## DIMENSIONS } ##########
