@@ -4,4 +4,8 @@ include: "//bc360_admin/bc360_triggers.lkml"
 
 include: "*.view.lkml"
 
-explore: arch_services {}
+label: "BC360 - Admin"
+
+explore: arch_services_admin {
+  label: "Service Architecture [ADMIN]"
+}
